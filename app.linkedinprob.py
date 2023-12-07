@@ -247,7 +247,7 @@ newdata = pd.DataFrame({
     "age": [i_age] # two different ages 
 })
 
-# print(newdata)
+print(newdata)
 
 probabilities = lr.predict_proba(newdata)
 linkedin_probabilities = probabilities[:, 1]
