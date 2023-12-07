@@ -193,7 +193,7 @@ parent_selected_option = st.selectbox("Do you have children:", parent_dd)
 if parent_selected_option == "Yes":
     i_parent = 1
 elif parent_selected_option == "No":
-    i_parent = 2
+    i_parent = 0
 
     
 #select married options
@@ -203,7 +203,7 @@ married_selected_option = st.selectbox("Are you married:", married_dd)
 if married_selected_option == "Yes":
     i_married = 1
 elif married_selected_option == "No":
-    i_married = 2
+    i_married = 0
 
 #select gender options
 i_gender = 0
@@ -212,7 +212,7 @@ gender_selected_option = st.selectbox("What is your gender:", gender_dd)
 if gender_selected_option == "Male":
     i_gender = 1
 elif gender_selected_option == "Female":
-    i_gender = 2
+    i_gender = 0
     
 #select age options
 i_age = 0
